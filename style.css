@@ -1,0 +1,12 @@
+ body,html{
+  margin:0px;
+ }
+ input[type="button"]{
+  border:none;
+  width:100%;
+  outline: none;
+ }
+ #wrap
+ {
+  margin:10%;
+ }

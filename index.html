@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id='wrap'>
+        <table border="1">
+         <tr>
+          <td colspan="3"><input type="text" id="result" readonly></td>
+          <td><input type="button" value="C"  onClick="clearElement()"></td>
+         </tr>
+         <tr>
+          <td><input type="button" value="1" onClick="element('1')"></td>
+          <td><input type="button" value="2" onClick="element('2')"></td>
+          <td><input type="button" value="3" onClick="element('3')"></td>
+          <td><input type="button" value="+" onClick="element('+')"></td>
+         </tr>
+         <tr>
+          <td><input type="button" value="4" onClick="element('4')"></td>
+          <td><input type="button" value="5" onClick="element('5')"></td>
+          <td><input type="button" value="6" onClick="element('6')"></td>
+          <td><input type="button" value="-" onClick="element('-')"></td>
+         </tr>
+         <tr>
+          <td><input type="button" value="7" onClick="element('7')"></td>
+          <td><input type="button" value="8" onClick="element('8')"></td>
+          <td><input type="button" value="9" onClick="element('9')"></td>
+          <td><input type="button" value="/" onClick="element('/')"></td>
+         </tr>
+         <tr>
+          <td><input type="button" value="*" onClick="element('*')"></td>
+          <td><input type="button" value="0" onClick="element('0')"></td>
+          <td><input type="button" value="." onClick="element('.')"></td>
+          <td><input type="button" value="=" onClick="solve()"></td>
+         </tr>
+        </table>
+        </div>
+        <script src="main.js"></script>
+</body>
+</html>>
